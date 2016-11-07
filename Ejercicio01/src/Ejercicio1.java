@@ -10,7 +10,12 @@ System.out.println("Inserte valor de A: ");
 A = teclado.nextInt();
 System.out.println("Inserte valor de B: ");
 B = teclado.nextInt();
-
+while (A > B){
+	System.out.println("Inserte valor de A: ");
+A = teclado.nextInt();
+System.out.println("Inserte valor de B: ");
+B = teclado.nextInt();
+}
 while (A != B-1){
 	A++;
 	resultado = resultado + A;
